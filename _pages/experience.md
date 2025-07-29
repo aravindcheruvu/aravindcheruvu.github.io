@@ -11,11 +11,11 @@ author_profile: true
 
 ## Research Experience
 
-### Virginia Tech - Security & ML Lab
+### Virginia Tech 
 **Graduate Research Assistant**  
 *Aug 2021 - Present*
 
-- **Research Focus:** Security and Generative AI under the supervision of Dr. Bimal Viswanath
+- **Research Focus:** Security and Generative AI under the supervision of Dr. Danfeng Yao
 - **Projects:** Toxicity injection attacks on chatbots, deepfake detection, LLM safety alignment
 - **Achievements:** Published papers at top-tier conferences (ACSAC 2023, IEEE S&P 2024)
 

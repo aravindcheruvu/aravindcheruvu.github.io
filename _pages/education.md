@@ -12,7 +12,7 @@ author_profile: true
 *Aug 2021 - Present*
 
 - **CGPA:** 3.75
-- **Advisor:** Dr. Bimal Viswanath
+- **Advisor:** Dr. Danfeng Yao
 - **Research Focus:** Security and Generative AI
 - **Status:** Ph.D. Candidate (Passed Qualifier with perfect score)
 

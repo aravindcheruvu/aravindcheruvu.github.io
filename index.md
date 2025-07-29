@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a graduate student in the Computer Science department at Virginia Tech, advised by **[Dr. Bimal Viswanath](https://people.cs.vt.edu/vbimal/)**. As a Generative AI enthusiast, my research focuses on **security and generative AI**. I am honored to have received the **Pratt Fellowship** from the CS department.
+I am a graduate student in the Computer Science department at Virginia Tech, advised by **[Dr. Danfeng Yao](https://yaogroup.cs.vt.edu/index.html)**. As a Generative AI enthusiast, my research focuses on **security and generative AI**. I am honored to have received the **Pratt Fellowship** from the CS department.
 
 My expertise lies in conversational AI systems, particularly chatbots. I am currently investigating and mitigating toxicity in chatbots and working on model customization pipelines. My research explores attacks and defenses using state-of-the-art Large Language Models (LLMs). Additionally, I have experience in the Computer Vision (CV) domain, working on deepfakes, GANs, and diffusion models. 
 
