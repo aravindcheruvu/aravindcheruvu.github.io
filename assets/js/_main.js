@@ -3,10 +3,8 @@
    ========================================================================== */
 
 $(document).ready(function () {
-  // detect OS/browser preference
-  const browserPref = window.matchMedia('(prefers-color-scheme: dark)').matches
-    ? 'dark'
-    : 'light';
+  // force light theme regardless of OS/browser preference
+  const browserPref = 'light';
 
   // Set the theme on page load or when explicitly called
   var setTheme = function (theme) {
@@ -25,26 +23,12 @@ $(document).ready(function () {
     }
   };
 
-  setTheme();
+  // force white background (light theme)
+  setTheme('light');
 
-  // if user hasn't chosen a theme, follow OS changes
-  window
-    .matchMedia('(prefers-color-scheme: dark)')
-    .addEventListener("change", (e) => {
-      if (!localStorage.getItem("theme")) {
-        setTheme(e.matches ? "dark" : "light");
-      }
-    });
+  // ignore OS color scheme changes
 
-  // Toggle the theme manually
-  var toggleTheme = function () {
-    const current_theme = $("html").attr("data-theme");
-    const new_theme = current_theme === "dark" ? "light" : "dark";
-    localStorage.setItem("theme", new_theme);
-    setTheme(new_theme);
-  };
-
-  $('#theme-toggle').on('click', toggleTheme);
+  // disable manual theme toggle (removed from masthead)
 
   // These should be the same as the settings in _variables.scss
   const scssLarge = 925; // pixels
