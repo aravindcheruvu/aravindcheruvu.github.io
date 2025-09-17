@@ -14,7 +14,7 @@ author_profile: true
 - **CGPA:** 3.75
 - **Advisor:** Dr. Danfeng Yao
 - **Research Focus:** Security and Generative AI
-- **Status:** Ph.D. Candidate (Passed Qualifier with perfect score)
+- **Status:** Ph.D. Candidate (Passed Ph.D. Preliminary exam)
 
 **Graduate Coursework:**
 - Data Analytics

@@ -19,8 +19,6 @@ author_profile: true
 - **Generative Models:** Stable Diffusion, StyleGAN
 - **Deepfake Technology:** Generation and detection techniques
 - **Adversarial Attacks:** Computer vision security research
-- **Image Processing:** Advanced techniques for medical imaging
-
 ---
 
 ### Machine Learning Libraries & Frameworks
@@ -76,16 +74,8 @@ author_profile: true
 - **Bias Detection:** Identifying and mitigating model biases
 
 ### Data Analysis
-- **Statistical Analysis:** Hypothesis testing, regression analysis
 - **Data Mining:** Pattern recognition, association rule mining
-- **Experimental Design:** A/B testing, controlled experiments
 - **Visualization:** Matplotlib, Seaborn, Plotly
-
-### Academic Research
-- **Paper Writing:** Technical writing for top-tier conferences
-- **Peer Review:** Reviewing for academic conferences
-- **Presentation:** Conference talks and poster presentations
-- **Collaboration:** Cross-institutional research projects
 
 ---
 
@@ -101,23 +91,3 @@ author_profile: true
 - Security-focused AI research methodologies
 
 ---
-
-## Soft Skills
-
-### Leadership & Management
-- Team leadership in consulting projects
-- Client relationship management
-- Project planning and execution
-- Cross-functional collaboration
-
-### Communication
-- Technical presentation skills
-- Academic paper writing
-- Client-facing communication
-- Media interviews and public speaking
-
-### Problem Solving
-- Complex system troubleshooting
-- Research problem formulation
-- Creative solution design
-- Critical thinking and analysis 

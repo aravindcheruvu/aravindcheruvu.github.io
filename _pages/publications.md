@@ -18,11 +18,6 @@ author_profile: true
 *arXiv preprint arXiv:2507.05660, July 2025.*  
 [PDF](https://arxiv.org/abs/2507.05660) | [arXiv](https://arxiv.org/abs/2507.05660)
 
-**Taming Data Challenges in ML-based Security Tasks: Lessons from Integrating Generative AI**  
-Shravya Kanchi, Neal Mangaokar, **Aravind Cheruvu**, Sifat Muhammad Abdullah, Shirin Nilizadeh, Atul Prakash, and Bimal Viswanath  
-*arXiv preprint arXiv:2507.06092, July 2025.*  
-[PDF](https://arxiv.org/html/2507.06092v1) | [arXiv](https://arxiv.org/abs/2507.06092)
-
 **A First Look at Toxicity Injection Attacks on Open-domain Chatbots**  
 **Aravind Cheruvu**, Connor Weeks, Sifat Muhammad Abdullah, Shravya Kanchi, Daphne Yao, and Bimal Viswanath  
 *ACSAC 2023, Austin, Texas, December 2023.*  
@@ -33,19 +28,12 @@ Sifat Muhammad Abdullah, **Aravind Cheruvu**, Shravya Kanchi, Taejoong Chung, Pe
 *IEEE S&P (Oakland) 2024, San Francisco, CA, May 2024.*  
 [PDF](https://arxiv.org/abs/2404.16212) | [Code and dataset](https://github.com/secml-lab-vt/EvolvingThreat-DeepfakeImageDetect)
 
-## Prior Publications
+**Taming Data Challenges in ML-based Security Tasks: Lessons from Integrating Generative AI**  
+Shravya Kanchi, Neal Mangaokar, **Aravind Cheruvu**, Sifat Muhammad Abdullah, Shirin Nilizadeh, Atul Prakash, and Bimal Viswanath  
+*arXiv preprint arXiv:2507.06092, July 2025.*  
+[PDF](https://arxiv.org/html/2507.06092v1) | [arXiv](https://arxiv.org/abs/2507.06092)
 
-**Using normal distribution to retrieve temporal associations by Euclidean distance**  
-**Aravind Cheruvu**, V Radhakrishna, N Rajasekhar  
-*2017 International Conference on Engineering & MIS (ICEMIS)*
-
-**Estimating temporal pattern bounds using negative support computations**  
-**Aravind Cheruvu**, V Radhakrishna  
-*International Conference on Engineering & MIS 2016*
-
-**VRKSHA: A novel multi-tree based sequential approach for seasonal pattern mining**  
-Shadi Aljawarneh, V Radhakrishna, **Aravind Cheruvu**  
-*International Conference on Engineering & MIS 2018*
+##  Selected Prior Publications
 
 **Feature clustering for anomaly detection using improved fuzzy membership function**  
 Gunupudi Rajesh Kumar, Nimmala Mangathayaru, Gugulothu Narsimha, **Aravind Cheruvu**  
