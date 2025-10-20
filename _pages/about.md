@@ -12,14 +12,14 @@ I am a graduate student in the Computer Science department at Virginia Tech, adv
 
 My expertise lies in conversational AI systems, particularly chatbots. I am currently investigating and mitigating toxicity in chatbots and working on model customization pipelines. My research explores attacks and defenses using state-of-the-art Large Language Models (LLMs). Additionally, I have experience in the Computer Vision (CV) domain, working on deepfakes, GANs, and diffusion models. 
 
-Beyond my research, I have 4.5 years of consulting experience, during which I worked on several large-scale projects with US-based clients. At Deloitte Consulting, I specialized as an Oracle Payroll Implementation Specialist. I completed my Bachelor's in Information Technology in 2016 from VNR VJIET, Hyderabad (affiliated with JNTU), where I gained research experience in Temporal Data Mining and Network Security.
+**I am currently working as GenAI Research Intern at Samsung Research America (SRA)**. I also have 4.5 years of consulting experience, during which I worked on several large-scale projects with US-based clients. At Deloitte Consulting, I specialized as an Oracle Payroll Implementation Specialist. I completed my Bachelor's in Information Technology in 2016 from VNR VJIET, Hyderabad (affiliated with JNTU), where I gained research experience in Temporal Data Mining and Network Security.
 
-**PS: I am actively seeking research collaborations in generative AI and security. If you are interested, please drop me an email.**
+**I am looking for full-time opportunities from May 2026. If you are interested, please drop me an email.**
 
 📄 **[Download my latest resume]({{ base_path }}/files/Aravind_Cheruvu_Resume_Latest.pdf)** - Updated with current research and achievements.
 
 ## Latest News
-
+* I have successfully passed my Ph.D. Preliminary exam.
 * I have attended The Amazon - Virginia Tech Initiative for Efficient and Robust Machine Learning - Fall retreat in Oct 2024.
 * I have attended **IEEE S&P 2024** as a coauthor in SFO in May 2024.
 * I have successfully passed my Ph.D. Qualifier exam with a perfect score.

@@ -9,7 +9,16 @@ author_profile: true
 
 ---
 
-## Research Experience
+
+### Samsung Research America (SRA)
+**GenAI Research Intern**
+*Aug 2025 – Nov 2025*
+
+- **Generative AI / LLMs / Health Applications:** Designed and developed Generative AI applications for digital health and wellness, delivering adaptive coaching, personalized recommendations, and context-aware health insights.  
+- **Backend Prototyping / RAG Framework / Cloud Integration:** Developed scalable backend pipelines and **RESTful APIs** to process multi-modal health data from smartphones and wearables, enabling **RAG-based AI assistants** that provide real-time, evidence-informed guidance.  
+- **Cross-Functional Research / Explainable AI / Clinical Collaboration:** Partnered with **AI scientists, clinicians, and human factors researchers** to co-innovate digital health solutions. Implemented AI-driven insights and explainable visualizations translating wearable and time-series analytics into actionable wellness feedback. Supported pilot studies to validate GenAI-based health coaching and conversational frameworks.  
+
+
 
 ### Virginia Tech 
 **Graduate Research Assistant**  
@@ -57,21 +66,3 @@ author_profile: true
 *Jun 2016 - Sep 2016*
 
 - Trained in E-Business Suite, Oracle Business Intelligence EE and Oracle Data Integrator tools.
-
-
-## Key Accomplishments
-
-### Client Impact
-- Successfully delivered 5+ Oracle HCM Cloud implementations for Fortune 500 clients
-- Managed $MM payroll systems with zero critical defects post-implementation
-- Designed and implemented 50+ technical RICEF objects
-
-### Technical Leadership
-- Led cross-functional teams for payroll reconciliation testing cycles
-- Developed automated tools for payroll comparison and executive reporting
-- Streamlined data analysis processes reducing manual effort by 60%
-
-### Industry Recognition
-- Certified Oracle HCM Cloud transformation consultant
-- Expert in payroll parallel testing and reconciliation methodologies
-- Specialized in large-scale enterprise system implementations 
