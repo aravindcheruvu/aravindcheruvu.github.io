@@ -14,7 +14,7 @@ My expertise lies in conversational AI systems, particularly chatbots. I am curr
 
 **I am currently working as GenAI Research Intern at Samsung Research America (SRA)**. I also have 4.5 years of consulting experience, during which I worked on several large-scale projects with US-based clients. At Deloitte Consulting, I specialized as an Oracle Payroll Implementation Specialist. I completed my Bachelor's in Information Technology in 2016 from VNR VJIET, Hyderabad (affiliated with JNTU), where I gained research experience in Temporal Data Mining and Network Security.
 
-**I am looking for full-time opportunities from May 2026. If you are interested, please drop me an email.**
+**I am looking for full-time opportunities starting May 2026. If you are interested, please drop me an email.**
 
 📄 **[Download my latest resume]({{ base_path }}/files/Aravind_Cheruvu_Resume_Latest.pdf)** - Updated with current research and achievements.
 
