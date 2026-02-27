@@ -8,17 +8,20 @@ redirect_from:
   - /about.html
 ---
 
-I am a graduate student in the Computer Science department at Virginia Tech, advised by **[Dr. Danfeng Yao](https://yaogroup.cs.vt.edu/index.html)**. As a Generative AI enthusiast, my research focuses on **security and generative AI**. I am honored to have received the **Pratt Fellowship** from the CS department.
+Hi! I am Aravind Cheruvu, a Ph.D. candidate in the Computer Science department at Virginia Tech, advised by **[Dr. Danfeng Yao](https://yaogroup.cs.vt.edu/index.html)**. As a Generative AI enthusiast, my research focuses on **security and generative AI**. I am honored to have received the Pratt Fellowship from the CS department.
 
-My expertise lies in conversational AI systems, particularly chatbots. I am currently investigating and mitigating toxicity in chatbots and working on model customization pipelines. My research explores attacks and defenses using state-of-the-art Large Language Models (LLMs). Additionally, I have experience in the Computer Vision (CV) domain, working on deepfakes, GANs, and diffusion models. 
+My research investigates attacks and defenses within Large Language Models (LLMs) and Agentic AI, with a core focus on conversational AI systems. Specifically, I examine and mitigate data poisoning attacks on LLMs during model customization. Furthermore, I explore defense mechanisms against novel threat vectors emerging from Agentic AI. My background also includes work in Computer Vision (CV), specifically involving deepfakes, GANs, and diffusion models.
 
-**I am currently working as GenAI Research Intern at Samsung Research America (SRA)**. I also have 4.5 years of consulting experience, during which I worked on several large-scale projects with US-based clients. At Deloitte Consulting, I specialized as an Oracle Payroll Implementation Specialist. I completed my Bachelor's in Information Technology in 2016 from VNR VJIET, Hyderabad (affiliated with JNTU), where I gained research experience in Temporal Data Mining and Network Security.
+I worked as GenAI Research Intern at Samsung Research America (SRA) in Fall 2025. I also have 4.5 years of consulting experience, during which I worked on several large-scale projects with US-based clients. At Deloitte Consulting, I specialized as an Oracle Payroll Implementation Specialist. I completed my Bachelor's in Information Technology in 2016 from VNR VJIET, Hyderabad (affiliated with JNTU), where I gained research experience in Temporal Data Mining and Network Security.
 
 **I am looking for full-time opportunities starting May 2026. If you are interested, please drop me an email.**
 
 📄 **[Download my latest resume]({{ base_path }}/files/Aravind_Cheruvu_Resume_Latest.pdf)** - Updated with current research and achievements.
 
 ## Latest News
+* My paper **"Optimus: A Robust Defense Framework for Mitigating Toxicity while Fine-Tuning Conversational AI"** has been accepted to **CODASPY 2026**.
+* I gave a research talk at UIUC invited by Dr.Xiaojing Liao and Dr. Luyi Xing in Dec 2025.
+* I worked as GenAI Research Intern at Samsung Research America (SRA) in Fall 2025.
 * I have successfully passed my Ph.D. Preliminary exam.
 * I have attended The Amazon - Virginia Tech Initiative for Efficient and Robust Machine Learning - Fall retreat in Oct 2024.
 * I have attended **IEEE S&P 2024** as a coauthor in SFO in May 2024.

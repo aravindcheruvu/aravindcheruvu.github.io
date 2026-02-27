@@ -48,8 +48,8 @@ author_profile: true
 ---
 
 ## Academic Achievements
-
-- **Ph.D. Qualifier:** Passed with perfect score - now a Ph.D. candidate
+- **Ph.D. Preliminary Exam:** Passed - now a Ph.D. candidate
+- **Ph.D. Qualifier:** Passed with perfect score
 - **Pratt Fellowship:** Received from the Department of Computer Science at Virginia Tech
 - **CCI SWVA Cyber Innovation Scholarship:** Awarded for FY 23 AND 24 from Commonwealth Cyber Initiative (CCI)
 - **Gold Medal:** Best outgoing student from the Department of Information Technology at VNR VJIET

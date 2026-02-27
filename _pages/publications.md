@@ -13,9 +13,9 @@ author_profile: true
 
 ## Ph.D. Publications
 
-**TuneShield: Mitigating Toxicity in Conversational AI while Fine-tuning on Untrusted Data**  
+**Optimus: A Robust Defense Framework for Mitigating Toxicity while Fine-tuning Conversational AI**  
 **Aravind Cheruvu**, Shravya Kanchi, Sifat Muhammad Abdullah, Nicholas Kong, Daphne Yao, Murtuza Jadliwala, and Bimal Viswanath  
-*arXiv preprint arXiv:2507.05660, July 2025.*  
+*Accepted to CODASPY 2026*
 [PDF](https://arxiv.org/abs/2507.05660) | [arXiv](https://arxiv.org/abs/2507.05660)
 
 **A First Look at Toxicity Injection Attacks on Open-domain Chatbots**  
