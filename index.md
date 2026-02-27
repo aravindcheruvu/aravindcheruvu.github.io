@@ -20,7 +20,7 @@ I worked as GenAI Research Intern at Samsung Research America (SRA) in Fall 2025
 
 ## Latest News
 * My paper **"Optimus: A Robust Defense Framework for Mitigating Toxicity while Fine-Tuning Conversational AI"** has been accepted to **CODASPY 2026**.
-* I gave a research talk at UIUC invited by Dr.Xiaojing Liao and Dr. Luyi Xing in Dec 2025.
+* I gave a research talk at UIUC invited by Dr. Xiaojing Liao and Dr. Luyi Xing in Dec 2025.
 * I worked as GenAI Research Intern at Samsung Research America (SRA) in Fall 2025.
 * I have successfully passed my Ph.D. Preliminary exam.
 * I have attended The Amazon - Virginia Tech Initiative for Efficient and Robust Machine Learning - Fall retreat in Oct 2024.
