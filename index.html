@@ -1,92 +1,11 @@
-<!DOCTYPE html>
-<html lang="en" data-theme="dark">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
+---
+layout: home
+title: "Home"
+permalink: /
+description: "Aravind Cheruvu - PhD candidate in Computer Science at Virginia Tech. Research in Security and Generative AI, LLMs, Conversational AI, and Computer Vision."
+---
 
-  <title>Aravind Cheruvu</title>
-  <meta name="description" content="Aravind Cheruvu - PhD candidate in Computer Science at Virginia Tech. Research in Security and Generative AI, LLMs, Conversational AI, and Computer Vision.">
-  <meta name="author" content="Aravind Cheruvu">
-
-  
-    <link rel="canonical" href="https://aravindcheruvu.github.io/">
-  
-
-  <!-- Open Graph -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Aravind Cheruvu - PhD student in Computer Science at Virginia Tech, specializing in security and generative AI">
-  <meta property="og:description" content="Aravind Cheruvu - PhD candidate in Computer Science at Virginia Tech. Research in Security and Generative AI, LLMs, Conversational AI, and Computer Vision.">
-  <meta property="og:url" content="https://aravindcheruvu.github.io/">
-  <meta property="og:image" content="https://aravindcheruvu.github.io/images/pic.jpg">
-
-  <!-- Theme color (matches dark hero) -->
-  <meta name="theme-color" content="#0b1020">
-
-  <!-- Favicon (reuse profile pic) -->
-  <link rel="icon" type="image/jpeg" href="/images/pic.jpg">
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-
-  <!-- Font Awesome (icons) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" referrerpolicy="no-referrer">
-
-  <!-- Site styles -->
-  <link rel="stylesheet" href="/assets/css/portfolio.css">
-
-  <!-- Apply persisted theme before paint to avoid flash -->
-  <script>
-    (function() {
-      try {
-        var t = localStorage.getItem('portfolio-theme');
-        if (t === 'light' || t === 'dark') {
-          document.documentElement.setAttribute('data-theme', t);
-        }
-      } catch (e) {}
-    })();
-  </script>
-</head>
-<body>
-  <a class="skip-link" href="#about">Skip to content</a>
-
-  <header class="site-header" id="siteHeader">
-    <div class="nav-wrap">
-      <a class="brand" href="#top">
-        <span class="brand-mark">AC</span>
-        <span class="brand-name">Aravind Cheruvu</span>
-      </a>
-
-      <nav class="primary-nav" aria-label="Primary">
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#news">News</a></li>
-          <li><a href="#research">Research</a></li>
-          <li><a href="#publications">Publications</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#talks">Talks</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-
-      <div class="nav-actions">
-        <button id="themeToggle" class="icon-btn" aria-label="Toggle color theme" title="Toggle theme">
-          <i class="fa-solid fa-moon" aria-hidden="true"></i>
-        </button>
-        <button id="navToggle" class="icon-btn nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-          <i class="fa-solid fa-bars" aria-hidden="true"></i>
-        </button>
-      </div>
-    </div>
-  </header>
-
-  <main id="top">
-    
+{% assign base = '' %}
 
 <!-- =================== HERO =================== -->
 <section class="hero" id="about">
@@ -113,29 +32,29 @@
       </p>
 
       <div class="hero-ctas">
-        <a class="btn btn-primary" href="mailto:acheruvu@vt.edu">
+        <a class="btn btn-primary" href="mailto:{{ site.author.email }}">
           <i class="fa-solid fa-envelope"></i> Get in touch
         </a>
-        <a class="btn" href="/files/Aravind_Cheruvu_Resume_Latest.pdf" target="_blank" rel="noopener">
+        <a class="btn" href="{{ '/files/Aravind_Cheruvu_Resume_Latest.pdf' | relative_url }}" target="_blank" rel="noopener">
           <i class="fa-solid fa-file-arrow-down"></i> Resume
         </a>
-        <a class="btn" href="https://scholar.google.co.in/citations?user=nfn3FFQVva4C&hl=en" target="_blank" rel="noopener">
+        <a class="btn" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">
           <i class="fa-solid fa-graduation-cap"></i> Google Scholar
         </a>
-        <a class="btn" href="https://github.com/aravindcheruvu" target="_blank" rel="noopener">
+        <a class="btn" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">
           <i class="fa-brands fa-github"></i> GitHub
         </a>
       </div>
 
       <div class="hero-quick">
-        <span><i class="fa-solid fa-location-dot"></i> Blacksburg, VA</span>
-        <span><i class="fa-solid fa-building-columns"></i> Virginia Tech</span>
+        <span><i class="fa-solid fa-location-dot"></i> {{ site.author.location }}</span>
+        <span><i class="fa-solid fa-building-columns"></i> {{ site.author.employer }}</span>
         <span><i class="fa-solid fa-user-graduate"></i> Advised by Dr. Danfeng Yao</span>
       </div>
     </div>
 
     <div class="hero-photo reveal" aria-hidden="true">
-      <img src="/images/pic.jpg" alt="Portrait of Aravind Cheruvu" loading="eager">
+      <img src="{{ '/images/pic.jpg' | relative_url }}" alt="Portrait of Aravind Cheruvu" loading="eager">
     </div>
   </div>
 </section>
@@ -195,7 +114,7 @@
             <li><i class="fa-solid fa-building"></i> ex-Samsung Research America</li>
             <li><i class="fa-solid fa-briefcase"></i> ex-Deloitte Consulting (4.5 yrs)</li>
             <li><i class="fa-solid fa-location-dot"></i> Blacksburg, VA</li>
-            <li><i class="fa-solid fa-envelope"></i> <a href="mailto:acheruvu@vt.edu">acheruvu@vt.edu</a></li>
+            <li><i class="fa-solid fa-envelope"></i> <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
           </ul>
         </div>
       </aside>
@@ -299,7 +218,7 @@
       <h2 class="section-title">Selected publications &amp; patents</h2>
       <p class="section-sub">
         Full list available on
-        <a href="https://scholar.google.co.in/citations?user=nfn3FFQVva4C&hl=en" target="_blank" rel="noopener">Google Scholar</a>.
+        <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Google Scholar</a>.
         Author names with <span class="text-strong">bold</span> indicate me.
       </p>
     </div>
@@ -369,7 +288,7 @@
           </p>
           <p class="pub-venue"><em>Annual Computer Security Applications Conference</em>, Austin, TX, December 2023</p>
           <div class="pub-links">
-            <a href="/files/Toxicity_injection_acsac_paper.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> PDF</a>
+            <a href="{{ '/files/Toxicity_injection_acsac_paper.pdf' | relative_url }}" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> PDF</a>
             <a href="https://github.com/secml-lab-vt/Chatbot-Toxicity-Injection/" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code &amp; Dataset</a>
             <a href="https://www.youtube.com/watch?v=Y9FTew96mxo" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> Video</a>
           </div>
@@ -830,7 +749,7 @@
           <strong>Looking for speaking opportunities</strong> in AI security, generative AI, and machine learning - topics include
           adversarial attacks on LLMs &amp; conversational AI, model customization &amp; safety alignment, deepfake
           detection, and enterprise AI applications. Please
-          <a href="mailto:acheruvu@vt.edu">reach out</a> if you'd like me to present.
+          <a href="mailto:{{ site.author.email }}">reach out</a> if you'd like me to present.
         </p>
       </div>
     </div>
@@ -856,44 +775,19 @@
         </p>
       </div>
       <div class="contact-actions">
-        <a class="btn btn-primary" href="mailto:acheruvu@vt.edu">
-          <i class="fa-solid fa-envelope"></i> acheruvu@vt.edu
+        <a class="btn btn-primary" href="mailto:{{ site.author.email }}">
+          <i class="fa-solid fa-envelope"></i> {{ site.author.email }}
         </a>
-        <a class="btn" href="/files/Aravind_Cheruvu_Resume_Latest.pdf" target="_blank" rel="noopener">
+        <a class="btn" href="{{ '/files/Aravind_Cheruvu_Resume_Latest.pdf' | relative_url }}" target="_blank" rel="noopener">
           <i class="fa-solid fa-file-arrow-down"></i> Resume
         </a>
-        <a class="btn" href="https://scholar.google.co.in/citations?user=nfn3FFQVva4C&hl=en" target="_blank" rel="noopener">
+        <a class="btn" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">
           <i class="fa-solid fa-graduation-cap"></i> Scholar
         </a>
-        <a class="btn" href="https://github.com/aravindcheruvu" target="_blank" rel="noopener">
+        <a class="btn" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">
           <i class="fa-brands fa-github"></i> GitHub
         </a>
       </div>
     </div>
   </div>
 </section>
-
-  </main>
-
-  <footer class="site-footer">
-    <div class="footer-wrap">
-      <div class="footer-left">
-        <div class="footer-name">Aravind Cheruvu</div>
-        <div class="footer-meta">PhD student in Computer Science at Virginia Tech, specializing in security and generative AI</div>
-      </div>
-      <ul class="footer-social">
-        <li><a href="mailto:acheruvu@vt.edu" aria-label="Email"><i class="fa-solid fa-envelope"></i></a></li>
-        <li><a href="https://scholar.google.co.in/citations?user=nfn3FFQVva4C&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a></li>
-        <li><a href="https://github.com/aravindcheruvu" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></li>
-      </ul>
-      <div class="footer-right">
-        <span>&copy; 2026 Aravind Cheruvu</span>
-        <span class="dot">&middot;</span>
-        <span>Updated May 05, 2026</span>
-      </div>
-    </div>
-  </footer>
-
-  <script src="/assets/js/portfolio.js" defer></script>
-</body>
-</html>
