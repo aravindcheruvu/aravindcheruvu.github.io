@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Aravind Cheruvu"
 title_separator          : "-"
 name                     : &name "Aravind Cheruvu"
-description              : &description "PhD student in Computer Science at Virginia Tech, specializing in security and generative AI"
+description              : &description "Aravind Cheruvu - PhD candidate in Computer Science at Virginia Tech. Research in security and generative AI, LLMs, conversational AI, and computer vision."
 url                      : https://aravindcheruvu.github.io
 baseurl                  : ""
 repository               : "aravindcheruvu/aravindcheruvu.github.io"
@@ -145,15 +145,7 @@ analytics:
   provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
 
 # Custom JavaScript
-head_scripts:
-  - /assets/js/scroll-navigation.js
-
-# Enhanced UX
-scroll_navigation:
-  enabled                : true
-  smooth_scroll          : true
-  keyboard_navigation    : true
-  progress_indicator     : true
+# (head scripts removed - new portfolio layout loads its own JS)
 
 # Reading Files
 include:

@@ -1,0 +1,793 @@
+---
+layout: home
+title: "Home"
+permalink: /
+description: "Aravind Cheruvu - PhD candidate in Computer Science at Virginia Tech. Research in Security and Generative AI, LLMs, Conversational AI, and Computer Vision."
+---
+
+{% assign base = '' %}
+
+<!-- =================== HERO =================== -->
+<section class="hero" id="about">
+  <div class="container hero-grid">
+    <div class="hero-text reveal">
+      <span class="hero-tag">
+        <span class="dot-live" aria-hidden="true"></span>
+        Open to full-time roles starting May 2026
+      </span>
+
+      <h1 class="hero-title">
+        Hi, I'm <span class="grad">Aravind Cheruvu</span>.
+      </h1>
+
+      <p class="hero-role">
+        Ph.D. candidate in Computer Science at <strong>Virginia Tech</strong>,
+        researching <strong>security and generative AI</strong>.
+      </p>
+
+      <p class="hero-pitch">
+        I work on attacks and defenses for Large Language Models and Agentic AI, with a focus
+        on conversational systems. Previously a GenAI Research Intern at Samsung Research America
+        and a Senior Consultant at Deloitte (4.5 years).
+      </p>
+
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="mailto:{{ site.author.email }}">
+          <i class="fa-solid fa-envelope"></i> Get in touch
+        </a>
+        <a class="btn" href="{{ '/files/Aravind_Cheruvu_Resume_Latest.pdf' | relative_url }}" target="_blank" rel="noopener">
+          <i class="fa-solid fa-file-arrow-down"></i> Resume
+        </a>
+        <a class="btn" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">
+          <i class="fa-solid fa-graduation-cap"></i> Google Scholar
+        </a>
+        <a class="btn" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+      </div>
+
+      <div class="hero-quick">
+        <span><i class="fa-solid fa-location-dot"></i> {{ site.author.location }}</span>
+        <span><i class="fa-solid fa-building-columns"></i> {{ site.author.employer }}</span>
+        <span><i class="fa-solid fa-user-graduate"></i> Advised by Dr. Danfeng Yao</span>
+      </div>
+    </div>
+
+    <div class="hero-photo reveal" aria-hidden="true">
+      <img src="{{ '/images/pic.jpg' | relative_url }}" alt="Portrait of Aravind Cheruvu" loading="eager">
+    </div>
+  </div>
+</section>
+
+<!-- =================== ABOUT =================== -->
+<section class="section" id="about-detail">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-eyebrow">About</span>
+      <h2 class="section-title">A bit about me</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-prose reveal">
+        <p>
+          Hi! I am <strong>Aravind Cheruvu</strong>, a Ph.D. candidate in the Computer Science
+          department at Virginia Tech, advised by
+          <a href="https://yaogroup.cs.vt.edu/index.html" target="_blank" rel="noopener"><strong>Dr. Danfeng Yao</strong></a>.
+          As a Generative AI enthusiast, my research focuses on
+          <strong>security and generative AI</strong>. I am honored to have received the
+          <strong>Pratt Fellowship</strong> from the CS department.
+        </p>
+        <p>
+          My research investigates attacks and defenses within Large Language Models (LLMs) and
+          Agentic AI, with a core focus on conversational AI systems. Specifically, I examine and
+          mitigate <strong>data poisoning attacks on LLMs</strong> during model customization.
+          Furthermore, I explore defense mechanisms against novel threat vectors emerging from
+          Agentic AI. My background also includes work in Computer Vision, specifically involving
+          deepfakes, GANs, and diffusion models.
+        </p>
+        <p>
+          I worked as a <strong>GenAI Research Intern at Samsung Research America (SRA)</strong>
+          in Fall 2025. I also have <strong>4.5 years of consulting experience</strong>, during
+          which I worked on several large-scale projects with US-based clients. At
+          <strong>Deloitte Consulting</strong>, I specialized as an Oracle Payroll Implementation
+          Specialist. I completed my Bachelor's in Information Technology in 2016 from
+          <strong>VNR VJIET, Hyderabad</strong> (affiliated with JNTU), where I gained research
+          experience in Temporal Data Mining and Network Security.
+        </p>
+
+        <div class="banner">
+          <i class="fa-solid fa-briefcase"></i>
+          <div>
+            <strong>I am looking for full-time opportunities starting May 2026.</strong>
+            If you are interested, please drop me an email.
+          </div>
+        </div>
+      </div>
+
+      <aside class="about-side reveal">
+        <div class="card">
+          <h4>At a glance</h4>
+          <ul>
+            <li><i class="fa-solid fa-flask"></i> Security &amp; Generative AI</li>
+            <li><i class="fa-solid fa-graduation-cap"></i> Ph.D. Candidate, Virginia Tech</li>
+            <li><i class="fa-solid fa-award"></i> Pratt Fellowship recipient</li>
+            <li><i class="fa-solid fa-building"></i> ex-Samsung Research America</li>
+            <li><i class="fa-solid fa-briefcase"></i> ex-Deloitte Consulting (4.5 yrs)</li>
+            <li><i class="fa-solid fa-location-dot"></i> Blacksburg, VA</li>
+            <li><i class="fa-solid fa-envelope"></i> <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- =================== NEWS =================== -->
+<section class="section compact" id="news">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-eyebrow">Latest News</span>
+      <h2 class="section-title">What's new</h2>
+      <p class="section-sub">Recent papers, talks, awards, and milestones.</p>
+    </div>
+
+    <ul class="news-list reveal" id="newsList">
+      <li class="news-item">
+        My paper <strong>"Optimus: A Robust Defense Framework for Mitigating Toxicity while Fine-Tuning Conversational AI"</strong>
+        has been accepted to <strong>CODASPY 2026</strong>.
+      </li>
+      <li class="news-item">
+        I gave a research talk at <strong>UIUC</strong> invited by Dr. Xiaojing Liao and Dr. Luyi Xing in Dec 2025.
+      </li>
+      <li class="news-item">
+        I worked as a <strong>GenAI Research Intern at Samsung Research America (SRA)</strong> in Fall 2025.
+      </li>
+      <li class="news-item">
+        I have successfully passed my <strong>Ph.D. Preliminary exam</strong>.
+      </li>
+      <li class="news-item">
+        I attended <strong>The Amazon - Virginia Tech Initiative for Efficient and Robust Machine Learning</strong> Fall retreat in Oct 2024.
+      </li>
+      <li class="news-item is-hidden">
+        I attended <strong>IEEE S&amp;P 2024</strong> as a coauthor in San Francisco in May 2024.
+      </li>
+      <li class="news-item is-hidden">
+        I have successfully passed my <strong>Ph.D. Qualifier exam with a perfect score</strong>.
+      </li>
+      <li class="news-item is-hidden">
+        Received the <strong>"Pratt Fellowship"</strong> from the Department of Computer Science.
+      </li>
+      <li class="news-item is-hidden">
+        Awarded the <strong>CCI SWVA Cyber Innovation Scholarship</strong> from Commonwealth Cyber Initiative (CCI) for FY 23 and 24.
+      </li>
+      <li class="news-item is-hidden">
+        Presented my paper <strong>"A First Look at Toxicity Injection Attacks on Open-domain Chatbots"</strong> at <strong>ACSAC 2023</strong> in Austin, TX in Dec 2023.
+      </li>
+      <li class="news-item is-hidden">
+        Received the <strong>"Best Poster award at CCI researcher showcase"</strong> -
+        <a href="https://news.vt.edu/articles/2023/04/future-cybersecurity-leaders-showcase-research.html" target="_blank" rel="noopener">Future cybersecurity leaders showcase research</a>.
+      </li>
+      <li class="news-item is-hidden">
+        News interview at WDBJ7 -
+        <a href="https://www.wdbj7.com/2023/05/01/virginia-tech-research-aims-reduce-toxic-language-artificial-intelligence/" target="_blank" rel="noopener"><strong>"Virginia Tech research aims to reduce toxic language from artificial intelligence."</strong></a>
+      </li>
+      <li class="news-item is-hidden">
+        News interview to VPM News Focal Point -
+        <a href="https://www.pbs.org/video/artificial-intelligence-what-are-the-risks-and-benefits-kaz2/" target="_blank" rel="noopener"><strong>"Artificial intelligence: What are the risks and benefits?"</strong></a>
+      </li>
+    </ul>
+
+    <button id="newsToggle" class="btn news-toggle" aria-expanded="false">
+      <span class="label">Show all news</span>
+      <i class="fa-solid fa-chevron-down"></i>
+    </button>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- =================== RESEARCH INTERESTS =================== -->
+<section class="section compact" id="research">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-eyebrow">Research Interests</span>
+      <h2 class="section-title">What I work on</h2>
+      <p class="section-sub">Topics I'm actively researching or have deep experience with.</p>
+    </div>
+
+    <div class="chips reveal">
+      <span class="chip"><i class="fa-solid fa-shield-halved"></i> Security &amp; Generative AI</span>
+      <span class="chip"><i class="fa-solid fa-brain"></i> Large Language Models (LLMs)</span>
+      <span class="chip"><i class="fa-solid fa-comments"></i> Conversational AI Systems</span>
+      <span class="chip"><i class="fa-solid fa-eye"></i> Computer Vision &amp; Deepfakes</span>
+      <span class="chip"><i class="fa-solid fa-clock-rotate-left"></i> Temporal Data Mining</span>
+      <span class="chip"><i class="fa-solid fa-network-wired"></i> Network Security</span>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- =================== PUBLICATIONS =================== -->
+<section class="section" id="publications">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-eyebrow">Publications</span>
+      <h2 class="section-title">Selected publications &amp; patents</h2>
+      <p class="section-sub">
+        Full list available on
+        <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Google Scholar</a>.
+        Author names with <span class="text-strong">bold</span> indicate me.
+      </p>
+    </div>
+
+    <div class="pub-list reveal">
+
+      <article class="pub-card">
+        <div class="pub-year"><span class="y">2026</span><span class="v">Conference</span></div>
+        <div>
+          <h3 class="pub-title">
+            Optimus: A Robust Defense Framework for Mitigating Toxicity while Fine-tuning Conversational AI
+            <span class="badge">CODASPY 2026</span>
+          </h3>
+          <p class="pub-authors">
+            <span class="me">Aravind Cheruvu</span>, Shravya Kanchi, Sifat Muhammad Abdullah, Nicholas Kong, Daphne Yao, Murtuza Jadliwala, Bimal Viswanath
+          </p>
+          <p class="pub-venue"><em>Accepted</em> - 16th ACM Conference on Data and Application Security and Privacy (CODASPY 2026)</p>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2507.05660" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> PDF</a>
+            <a href="https://arxiv.org/abs/2507.05660" target="_blank" rel="noopener"><i class="fa-solid fa-link"></i> arXiv</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pub-card">
+        <div class="pub-year"><span class="y">2025</span><span class="v">Preprint</span></div>
+        <div>
+          <h3 class="pub-title">Taming Data Challenges in ML-based Security Tasks: Lessons from Integrating Generative AI</h3>
+          <p class="pub-authors">
+            Shravya Kanchi, Neal Mangaokar, <span class="me">Aravind Cheruvu</span>, Sifat Muhammad Abdullah, Shirin Nilizadeh, Atul Prakash, Bimal Viswanath
+          </p>
+          <p class="pub-venue"><em>arXiv:2507.06092</em>, July 2025</p>
+          <div class="pub-links">
+            <a href="https://arxiv.org/html/2507.06092v1" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> PDF</a>
+            <a href="https://arxiv.org/abs/2507.06092" target="_blank" rel="noopener"><i class="fa-solid fa-link"></i> arXiv</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pub-card">
+        <div class="pub-year"><span class="y">2024</span><span class="v">Conference</span></div>
+        <div>
+          <h3 class="pub-title">
+            An Analysis of Recent Advances in Deepfake Image Detection in an Evolving Threat Landscape
+            <span class="badge">IEEE S&amp;P 2024</span>
+          </h3>
+          <p class="pub-authors">
+            Sifat Muhammad Abdullah, <span class="me">Aravind Cheruvu</span>, Shravya Kanchi, Taejoong Chung, Peng Gao, Murtuza Jadliwala, Bimal Viswanath
+          </p>
+          <p class="pub-venue"><em>IEEE Symposium on Security and Privacy (Oakland) 2024</em>, San Francisco, CA, May 2024</p>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2404.16212" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> PDF</a>
+            <a href="https://github.com/secml-lab-vt/EvolvingThreat-DeepfakeImageDetect" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pub-card">
+        <div class="pub-year"><span class="y">2023</span><span class="v">Conference</span></div>
+        <div>
+          <h3 class="pub-title">
+            A First Look at Toxicity Injection Attacks on Open-domain Chatbots
+            <span class="badge">ACSAC 2023</span>
+          </h3>
+          <p class="pub-authors">
+            <span class="me">Aravind Cheruvu</span>, Connor Weeks, Sifat Muhammad Abdullah, Shravya Kanchi, Daphne Yao, Bimal Viswanath
+          </p>
+          <p class="pub-venue"><em>Annual Computer Security Applications Conference</em>, Austin, TX, December 2023</p>
+          <div class="pub-links">
+            <a href="{{ '/files/Toxicity_injection_acsac_paper.pdf' | relative_url }}" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> PDF</a>
+            <a href="https://github.com/secml-lab-vt/Chatbot-Toxicity-Injection/" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code &amp; Dataset</a>
+            <a href="https://www.youtube.com/watch?v=Y9FTew96mxo" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> Video</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pub-card">
+        <div class="pub-year"><span class="y">2018</span><span class="v">Conference</span></div>
+        <div>
+          <h3 class="pub-title">Feature clustering for anomaly detection using improved fuzzy membership function</h3>
+          <p class="pub-authors">
+            Gunupudi Rajesh Kumar, Nimmala Mangathayaru, Gugulothu Narsimha, <span class="me">Aravind Cheruvu</span>
+          </p>
+          <p class="pub-venue"><em>International Conference on Engineering &amp; MIS, 2018</em></p>
+        </div>
+      </article>
+
+      <article class="pub-card">
+        <div class="pub-year"><span class="y">2017</span><span class="v">Journal</span></div>
+        <div>
+          <h3 class="pub-title">A dissimilarity measure for mining similar temporal association patterns</h3>
+          <p class="pub-authors">
+            Vangipuram Radhakrishna, PV Kumar, Vinjamuri Janaki, <span class="me">Aravind Cheruvu</span>
+          </p>
+          <p class="pub-venue"><em>IADIS International Journal on Computer Science and Information Systems, 2017</em></p>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="reveal" style="margin-top:36px;">
+      <span class="section-eyebrow">Patents</span>
+      <h3 class="section-title" style="font-size:24px;">Patents</h3>
+
+      <div class="pub-list" style="margin-top:18px;">
+        <article class="pub-card">
+          <div class="pub-year"><span class="y">2020</span><span class="v">Patent</span></div>
+          <div>
+            <h3 class="pub-title">System and Method for Diagnosis of Diseases From Medical Images</h3>
+            <p class="pub-authors">Indian Patent No. 387074 - Filed 05/14/2020</p>
+            <p class="pub-venue">A novel machine learning implementation of a COVID-19 detection system using chest X-rays.</p>
+          </div>
+        </article>
+
+        <article class="pub-card">
+          <div class="pub-year"><span class="y">2018</span><span class="v">Patent</span></div>
+          <div>
+            <h3 class="pub-title">System and Method to Generate Time-Profiled Temporal Pattern Tree</h3>
+            <p class="pub-authors">Indian Patent No. 397728 - Filed 12/03/2018</p>
+            <p class="pub-venue">A novel temporal tree structure for discovering temporal association rules in large datasets.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- =================== EXPERIENCE =================== -->
+<section class="section" id="experience">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-eyebrow">Experience</span>
+      <h2 class="section-title">Where I've worked</h2>
+      <p class="section-sub">Roles in research and consulting across the past several years.</p>
+    </div>
+
+    <ol class="timeline reveal">
+
+      <li class="tl-item">
+        <div class="tl-card">
+          <div class="tl-head">
+            <div>
+              <h3 class="tl-role">GenAI Research Intern</h3>
+              <div class="tl-org">Samsung Research America (SRA)</div>
+            </div>
+            <span class="tl-dates">Aug 2025 - Nov 2025</span>
+          </div>
+          <div class="tl-body">
+            <ul>
+              <li><strong>Generative AI / LLMs / Health Applications:</strong> Designed and developed Generative AI applications for digital health and wellness, delivering adaptive coaching, personalized recommendations, and context-aware health insights.</li>
+              <li><strong>Backend Prototyping / RAG / Cloud Integration:</strong> Developed scalable backend pipelines and RESTful APIs to process multi-modal health data from smartphones and wearables, enabling RAG-based AI assistants that provide real-time, evidence-informed guidance.</li>
+              <li><strong>Cross-Functional Research / Explainable AI / Clinical Collaboration:</strong> Partnered with AI scientists, clinicians, and human-factors researchers to co-innovate digital health solutions. Implemented AI-driven insights and explainable visualizations translating wearable and time-series analytics into actionable wellness feedback. Supported pilot studies to validate GenAI-based health coaching and conversational frameworks.</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+
+      <li class="tl-item">
+        <div class="tl-card">
+          <div class="tl-head">
+            <div>
+              <h3 class="tl-role">Graduate Research Assistant</h3>
+              <div class="tl-org">Virginia Tech</div>
+            </div>
+            <span class="tl-dates">Aug 2021 - Present</span>
+          </div>
+          <div class="tl-body">
+            <ul>
+              <li><strong>Research focus:</strong> Security and Generative AI under the supervision of Dr. Danfeng Yao.</li>
+              <li><strong>Projects:</strong> Toxicity injection attacks on chatbots, deepfake detection, and LLM safety alignment.</li>
+              <li><strong>Achievements:</strong> Published papers at top-tier conferences (ACSAC 2023, IEEE S&amp;P 2024, CODASPY 2026).</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+
+      <li class="tl-item">
+        <div class="tl-card">
+          <div class="tl-head">
+            <div>
+              <h3 class="tl-role">Senior Consultant</h3>
+              <div class="tl-org">Deloitte Consulting</div>
+            </div>
+            <span class="tl-dates">Jun 2021 - Jul 2021</span>
+          </div>
+          <div class="tl-body">
+            <ul>
+              <li>Certified Oracle HCM Cloud transformation consultant with 4.5 years of demonstrated techno-functional expertise specialized in capturing business use cases, understanding requirements, and performing fit-gap analysis to design scalable 50+ Technical RICEF objects and business process solutions.</li>
+              <li>Strategized and executed Payroll Parallel/Reconciliation testing cycles for 5 successful client implementations to uncover system implementation defects, understand financial and business process impacts of Go-live and Post Production, and recommend mitigation strategies.</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+
+      <li class="tl-item">
+        <div class="tl-card">
+          <div class="tl-head">
+            <div>
+              <h3 class="tl-role">Consultant</h3>
+              <div class="tl-org">Deloitte Consulting</div>
+            </div>
+            <span class="tl-dates">Sep 2018 - Jun 2021</span>
+          </div>
+          <div class="tl-body">
+            <p><strong>Payroll Reconciliation:</strong></p>
+            <ul>
+              <li>Led planning and execution of Payroll Compare cycles for multiple clients to perform trend analysis of $MM employee payrolls, test data integrity, and understand Go-Live and Post-Production impacts of Payroll, Benefits, Time (TL), Absence, and Compensation systems using SQL and Excel analytics.</li>
+              <li>Developed and streamlined a Payroll Compare Analysis and Executive Reporting Tool which extracts and uses HR and Payroll run data between Legacy and simulated Test systems to produce Payroll Compare reports and Executive Dashboards for extensive payroll data analysis.</li>
+            </ul>
+            <p><strong>Payroll RICEF:</strong></p>
+            <ul>
+              <li>Supported Payroll BR100 configurations and coordinated and executed SIT and UAT testing cycles.</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+
+      <li class="tl-item">
+        <div class="tl-card">
+          <div class="tl-head">
+            <div>
+              <h3 class="tl-role">Business Analyst</h3>
+              <div class="tl-org">Deloitte Consulting</div>
+            </div>
+            <span class="tl-dates">Dec 2016 - Aug 2018</span>
+          </div>
+          <div class="tl-body">
+            <p><strong>Technical Developer:</strong></p>
+            <ul>
+              <li>Worked as a technical team member implementing key out-of-the-box integrations using HCM Extracts to Kronos and Benefits systems, BI Publisher reports using eText and RTF templates, and developed Payroll Fast Formulas.</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+
+      <li class="tl-item">
+        <div class="tl-card">
+          <div class="tl-head">
+            <div>
+              <h3 class="tl-role">Assistant System Engineer - Trainee</h3>
+              <div class="tl-org">Tata Consultancy Services</div>
+            </div>
+            <span class="tl-dates">Jun 2016 - Sep 2016</span>
+          </div>
+          <div class="tl-body">
+            <ul>
+              <li>Trained in E-Business Suite, Oracle Business Intelligence EE, and Oracle Data Integrator tools.</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+
+    </ol>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- =================== EDUCATION =================== -->
+<section class="section" id="education">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-eyebrow">Education</span>
+      <h2 class="section-title">Academic background</h2>
+    </div>
+
+    <ol class="timeline reveal">
+
+      <li class="tl-item">
+        <div class="tl-card">
+          <div class="tl-head">
+            <div>
+              <h3 class="tl-role">Ph.D. in Computer Science <span class="text-muted" style="font-weight:400;">(M.S. along the way)</span></h3>
+              <div class="tl-org">Virginia Polytechnic Institute and State University (Virginia Tech)</div>
+            </div>
+            <span class="tl-dates">Aug 2021 - Present</span>
+          </div>
+          <div class="tl-body">
+            <ul>
+              <li><strong>CGPA:</strong> 3.75</li>
+              <li><strong>Advisor:</strong> Dr. Danfeng Yao</li>
+              <li><strong>Research focus:</strong> Security and Generative AI</li>
+              <li><strong>Status:</strong> Ph.D. Candidate (Passed Ph.D. Preliminary exam)</li>
+            </ul>
+            <div class="tl-section-title">Graduate coursework</div>
+            <div class="chips" style="margin-top:6px;">
+              <span class="chip">Data Analytics</span>
+              <span class="chip">Deep Learning</span>
+              <span class="chip">Hot Topics in Security and AI</span>
+              <span class="chip">Theory of Algorithms</span>
+              <span class="chip">Advanced Machine Learning</span>
+              <span class="chip">Security Risks of Generative AI</span>
+              <span class="chip">Defenses Against ML Powered Adversaries</span>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li class="tl-item">
+        <div class="tl-card">
+          <div class="tl-head">
+            <div>
+              <h3 class="tl-role">Bachelor's in Information Technology</h3>
+              <div class="tl-org">Jawaharlal Nehru Technological University (VNR VJIET)</div>
+            </div>
+            <span class="tl-dates">Sep 2012 - May 2016</span>
+          </div>
+          <div class="tl-body">
+            <ul>
+              <li><strong>CGPA:</strong> 8.51 / 10.0</li>
+              <li><strong>Achievement:</strong> Gold Medal for best outgoing student from the Department of I.T.</li>
+              <li><strong>Specialization:</strong> Information Technology with focus on Data Mining and Network Security</li>
+            </ul>
+            <div class="tl-section-title">Relevant coursework</div>
+            <div class="chips" style="margin-top:6px;">
+              <span class="chip">Data Structures &amp; Algorithms</span>
+              <span class="chip">Database Management Systems</span>
+              <span class="chip">Computer Networks</span>
+              <span class="chip">Software Engineering</span>
+              <span class="chip">Data Mining &amp; Warehousing</span>
+              <span class="chip">Network Security</span>
+              <span class="chip">Operating Systems</span>
+              <span class="chip">Computer Graphics</span>
+            </div>
+          </div>
+        </div>
+      </li>
+
+    </ol>
+
+    <div class="reveal" style="margin-top:32px;">
+      <span class="section-eyebrow">Achievements</span>
+      <h3 class="section-title" style="font-size:24px;">Academic honors</h3>
+      <div class="card mt-12">
+        <ul style="margin:0; padding-left:18px;">
+          <li><strong>Ph.D. Preliminary Exam:</strong> Passed - now a Ph.D. candidate.</li>
+          <li><strong>Ph.D. Qualifier Exam:</strong> Passed with a perfect score.</li>
+          <li><strong>Pratt Fellowship:</strong> Received from the Department of Computer Science at Virginia Tech.</li>
+          <li><strong>CCI SWVA Cyber Innovation Scholarship:</strong> Awarded for FY 23 and 24 from Commonwealth Cyber Initiative (CCI).</li>
+          <li><strong>Gold Medal:</strong> Best outgoing student from the Department of Information Technology at VNR VJIET.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- =================== SKILLS =================== -->
+<section class="section" id="skills">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-eyebrow">Skills</span>
+      <h2 class="section-title">Technical toolkit</h2>
+      <p class="section-sub">Languages, frameworks, and platforms I work with regularly.</p>
+    </div>
+
+    <div class="skills-grid reveal">
+
+      <div class="skill-group">
+        <h3><i class="fa-solid fa-brain"></i> NLP &amp; Generative AI</h3>
+        <div class="skill-tags">
+          <span class="tag">LLAMA2</span><span class="tag">FALCON</span><span class="tag">Vicuna</span>
+          <span class="tag">FLAN</span><span class="tag">OPT</span>
+          <span class="tag">Standard Fine-tuning</span><span class="tag">LoRA</span>
+          <span class="tag">SFT</span><span class="tag">DPO</span>
+          <span class="tag">Adversarial Attacks</span><span class="tag">Toxicity Injection</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3><i class="fa-solid fa-eye"></i> Computer Vision &amp; GenAI</h3>
+        <div class="skill-tags">
+          <span class="tag">Stable Diffusion</span><span class="tag">StyleGAN</span>
+          <span class="tag">Deepfake Generation</span><span class="tag">Deepfake Detection</span>
+          <span class="tag">Adversarial Attacks (CV)</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3><i class="fa-solid fa-microchip"></i> ML Libraries &amp; Frameworks</h3>
+        <div class="skill-tags">
+          <span class="tag">PyTorch</span><span class="tag">TensorFlow</span><span class="tag">Scikit-Learn</span>
+          <span class="tag">HuggingFace Transformers</span><span class="tag">Tokenizers</span>
+          <span class="tag">PEFT</span><span class="tag">Accelerate</span><span class="tag">DeepSpeed</span>
+          <span class="tag">NumPy</span><span class="tag">Pandas</span><span class="tag">TRL</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3><i class="fa-solid fa-code"></i> Programming Languages</h3>
+        <div class="skill-tags">
+          <span class="tag">Python</span><span class="tag">Java</span><span class="tag">C++</span>
+          <span class="tag">C</span><span class="tag">SQL</span>
+          <span class="tag">HTML/CSS</span><span class="tag">JavaScript</span>
+          <span class="tag">Bash</span><span class="tag">Shell</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3><i class="fa-solid fa-screwdriver-wrench"></i> Developer Tools</h3>
+        <div class="skill-tags">
+          <span class="tag">VS Code</span><span class="tag">Eclipse</span><span class="tag">NetBeans</span>
+          <span class="tag">Android Studio</span>
+          <span class="tag">SQL Developer</span><span class="tag">MySQL Workbench</span>
+          <span class="tag">Git</span><span class="tag">GitHub</span>
+          <span class="tag">Weka</span><span class="tag">Jupyter</span>
+          <span class="tag">AWS (EC2, S3, Lambda)</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3><i class="fa-solid fa-server"></i> Systems &amp; Frameworks</h3>
+        <div class="skill-tags">
+          <span class="tag">Linux (Ubuntu, CentOS)</span><span class="tag">Windows</span><span class="tag">macOS</span>
+          <span class="tag">Docker</span>
+          <span class="tag">Flask</span><span class="tag">Django</span>
+          <span class="tag">Java Swing</span><span class="tag">AWT</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3><i class="fa-solid fa-database"></i> Oracle (Industry)</h3>
+        <div class="skill-tags">
+          <span class="tag">Oracle SQL</span><span class="tag">PL/SQL</span>
+          <span class="tag">HCM Cloud</span><span class="tag">HR &amp; Payroll Modules</span>
+          <span class="tag">BI Publisher</span><span class="tag">eText</span><span class="tag">RTF</span>
+          <span class="tag">HCM Extracts</span><span class="tag">Fast Formulas</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3><i class="fa-solid fa-flask"></i> Research Skills</h3>
+        <div class="skill-tags">
+          <span class="tag">Adversarial ML</span>
+          <span class="tag">Model Robustness</span>
+          <span class="tag">Safety Alignment</span>
+          <span class="tag">Bias Detection</span>
+          <span class="tag">Data Mining</span>
+          <span class="tag">Matplotlib</span><span class="tag">Seaborn</span><span class="tag">Plotly</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3><i class="fa-solid fa-certificate"></i> Certifications &amp; Training</h3>
+        <div class="skill-tags">
+          <span class="tag">Oracle HCM Cloud Implementation Specialist</span>
+          <span class="tag">Oracle BI Certified Professional</span>
+          <span class="tag">Deep Learning Specialization</span>
+          <span class="tag">Advanced ML</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- =================== TALKS & MEDIA =================== -->
+<section class="section" id="talks">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-eyebrow">Talks &amp; Media</span>
+      <h2 class="section-title">Presentations &amp; coverage</h2>
+      <p class="section-sub">Conference talks, posters, and media interviews.</p>
+    </div>
+
+    <div class="talks-grid reveal">
+
+      <article class="talk-card">
+        <span class="talk-kind">Conference Talk</span>
+        <h3 class="talk-title">A First Look at Toxicity Injection Attacks on Open-domain Chatbots</h3>
+        <div class="talk-meta">ACSAC 2023 - Austin, TX - Dec 2023</div>
+        <a class="talk-link" href="https://www.youtube.com/watch?v=Y9FTew96mxo" target="_blank" rel="noopener">
+          <i class="fa-brands fa-youtube"></i> Watch on YouTube
+        </a>
+      </article>
+
+      <article class="talk-card">
+        <span class="talk-kind">Conference Talk</span>
+        <h3 class="talk-title">Recent Advances in Deepfake Image Detection in an Evolving Threat Landscape</h3>
+        <div class="talk-meta">IEEE S&amp;P (Oakland) 2024 - San Francisco, CA - May 2024</div>
+      </article>
+
+      <article class="talk-card">
+        <span class="talk-kind">Invited Talk</span>
+        <h3 class="talk-title">Research talk at UIUC</h3>
+        <div class="talk-meta">Hosted by Dr. Xiaojing Liao &amp; Dr. Luyi Xing - Dec 2025</div>
+      </article>
+
+      <article class="talk-card">
+        <span class="talk-kind">Poster - Award</span>
+        <h3 class="talk-title">Best Poster Award - CCI Researcher Showcase</h3>
+        <div class="talk-meta">Commonwealth Cyber Initiative, 2023</div>
+        <a class="talk-link" href="https://news.vt.edu/articles/2023/04/future-cybersecurity-leaders-showcase-research.html" target="_blank" rel="noopener">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> News coverage
+        </a>
+      </article>
+
+      <article class="talk-card">
+        <span class="talk-kind">Media Interview</span>
+        <h3 class="talk-title">Virginia Tech research aims to reduce toxic language from artificial intelligence</h3>
+        <div class="talk-meta">WDBJ7 News, May 2023</div>
+        <a class="talk-link" href="https://www.wdbj7.com/2023/05/01/virginia-tech-research-aims-reduce-toxic-language-artificial-intelligence/" target="_blank" rel="noopener">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> Watch interview
+        </a>
+      </article>
+
+      <article class="talk-card">
+        <span class="talk-kind">Media Interview</span>
+        <h3 class="talk-title">Artificial intelligence: What are the risks and benefits?</h3>
+        <div class="talk-meta">VPM News Focal Point</div>
+        <a class="talk-link" href="https://www.pbs.org/video/artificial-intelligence-what-are-the-risks-and-benefits-kaz2/" target="_blank" rel="noopener">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> Watch interview
+        </a>
+      </article>
+
+    </div>
+
+    <div class="card reveal" style="margin-top:24px;">
+      <div class="card-body">
+        <p style="margin:0;">
+          <i class="fa-solid fa-microphone" style="color:var(--accent-2); margin-right:8px;"></i>
+          <strong>Looking for speaking opportunities</strong> in AI security, generative AI, and machine learning - topics include
+          adversarial attacks on LLMs &amp; conversational AI, model customization &amp; safety alignment, deepfake
+          detection, and enterprise AI applications. Please
+          <a href="mailto:{{ site.author.email }}">reach out</a> if you'd like me to present.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- =================== CONTACT =================== -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-eyebrow">Contact</span>
+      <h2 class="section-title">Let's connect</h2>
+      <p class="section-sub">Best way to reach me is email - I read everything.</p>
+    </div>
+
+    <div class="contact-card reveal">
+      <div>
+        <p class="contact-headline">Open to full-time opportunities starting May&nbsp;2026.</p>
+        <p class="contact-sub">
+          Happy to chat about AI security, generative AI, conversational AI, or potential collaborations.
+        </p>
+      </div>
+      <div class="contact-actions">
+        <a class="btn btn-primary" href="mailto:{{ site.author.email }}">
+          <i class="fa-solid fa-envelope"></i> {{ site.author.email }}
+        </a>
+        <a class="btn" href="{{ '/files/Aravind_Cheruvu_Resume_Latest.pdf' | relative_url }}" target="_blank" rel="noopener">
+          <i class="fa-solid fa-file-arrow-down"></i> Resume
+        </a>
+        <a class="btn" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">
+          <i class="fa-solid fa-graduation-cap"></i> Scholar
+        </a>
+        <a class="btn" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
